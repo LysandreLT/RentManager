@@ -1,5 +1,7 @@
 package com.epf.rentmanager.ui.cli;
 
+import com.epf.rentmanager.service.ClientService;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -17,10 +19,13 @@ public class Main {
             Scanner scanner = new Scanner(System.in);
             switch(Integer.parseInt(scanner.nextLine())){
                 case 1:
+                    System.out.println("Ajout d'un nouveau client...");
                     System.out.println("Nom du client : ");
                     String nomClient = scanner.nextLine();
                     System.out.println("Prénom du client : ");
                     String prenomClient = scanner.nextLine();
+
+                    ClientService clientService = ClientService.getInstance();
 
                 case 2:
                     System.out.println("Liste des clients :");
