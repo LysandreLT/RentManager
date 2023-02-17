@@ -13,6 +13,7 @@ public class Main {
                     "4 : Afficher la liste de tous les véhicules \n" +
                     "5 : Supprimer un client \n " +
                     "6 : Supprimer un véhicule");
+
             Scanner scanner = new Scanner(System.in);
             switch(Integer.parseInt(scanner.nextLine())){
                 case 1:
