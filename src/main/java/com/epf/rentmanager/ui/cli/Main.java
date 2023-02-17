@@ -18,8 +18,7 @@ public class Main {
             switch(Integer.parseInt(scanner.nextLine())){
                 case 1:
                     System.out.println("Nom du client : ");
-                    String nomClient = scanner.nextLine();
-
+                    String nomClient = scanner.nextLine();~
 
                 case 2:
                     System.out.println("Liste des clients :");
