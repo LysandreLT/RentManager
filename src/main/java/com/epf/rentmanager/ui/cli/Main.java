@@ -12,7 +12,6 @@ public class Main {
                     "4 : Afficher la liste de tous les véhicules \n" +
                     "5 : Supprimer un client \n " +
                     "6 : Supprimer un véhicule");
-            System.in.read();
         }
     }
 }
