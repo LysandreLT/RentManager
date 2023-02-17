@@ -17,7 +17,9 @@ public class Main {
             Scanner scanner = new Scanner(System.in);
             switch(Integer.parseInt(scanner.nextLine())){
                 case 1:
-                    System.out.println("Ajout d'un nouveau client...");
+                    System.out.println("Nom du client : ");
+                    String nomClient = scanner.nextLine();
+
 
                 case 2:
                     System.out.println("Liste des clients :");
