@@ -9,7 +9,6 @@ import com.epf.rentmanager.service.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.context.support.SpringBeanAutowiringSupport;
 
-import java.io.Console;
 import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;

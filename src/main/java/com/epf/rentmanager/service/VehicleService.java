@@ -4,10 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.epf.rentmanager.dao.DaoException;
-import com.epf.rentmanager.service.ServiceException;
-import com.epf.rentmanager.model.Client;
 import com.epf.rentmanager.model.Vehicle;
-import com.epf.rentmanager.dao.ClientDao;
 import com.epf.rentmanager.dao.VehicleDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

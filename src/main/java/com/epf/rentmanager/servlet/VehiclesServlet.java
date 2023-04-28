@@ -1,6 +1,5 @@
 package com.epf.rentmanager.servlet;
 import com.epf.rentmanager.dao.DaoException;
-import com.epf.rentmanager.model.Client;
 import com.epf.rentmanager.model.Vehicle;
 import com.epf.rentmanager.service.ServiceException;
 import com.epf.rentmanager.service.VehicleService;

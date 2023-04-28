@@ -1,8 +1,6 @@
 package com.epf.rentmanager.service;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.Period;
 import java.util.ArrayList;
 import java.util.List;
 
