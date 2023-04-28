@@ -14,7 +14,7 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                Reservations
+                Reservation
             </h1>
         </section>
 
@@ -25,25 +25,25 @@
                     <!-- Horizontal Form -->
                     <div class="box">
                         <!-- form start -->
-                        <form class="form-horizontal" method="post" action="/rents/create">
+                        <form class="form-horizontal" method="post">
                             <div class="box-body">
                                 <div class="form-group">
                                     <label for="car" class="col-sm-2 control-label">Voiture</label>
-
                                     <div class="col-sm-10">
                                         <select class="form-control" id="car" name="car">
-                                            <option value="1">Renault Clio</option>
-                                            <option value="2">Citroen C2</option>
+                                            <c:forEach items="${constructeursEtModeles}" var="constructeurEtModele">
+                                            <option value=${vehicules[constructeursEtModeles.indexOf(constructeurEtModele)].getId()}>${constructeurEtModele}</option>
+                                            </c:forEach>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="client" class="col-sm-2 control-label">Client</label>
-
                                     <div class="col-sm-10">
                                         <select class="form-control" id="client" name="client">
-                                            <option value="1">John Doe</option>
-                                            <option value="2">Jane Doe</option>
+                                            <c:forEach items="${nomsPrenoms}" var="nomPrenom">
+                                            <option value=${clients[nomsPrenoms.indexOf(nomPrenom)].getId()}>${nomPrenom}</option>
+                                            </c:forEach>
                                         </select>
                                     </div>
                                 </div>

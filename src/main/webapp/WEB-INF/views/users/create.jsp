@@ -25,18 +25,16 @@
                     <!-- Horizontal Form -->
                     <div class="box">
                         <!-- form start -->
-                        <form class="form-horizontal" method="post" action="/users/create">
+                        <form class="form-horizontal" method="post">
                             <div class="box-body">
                                 <div class="form-group">
                                     <label for="last_name" class="col-sm-2 control-label">Nom</label>
-
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Nom">
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="first_name" class="col-sm-2 control-label">Prenom</label>
-
                                     <div class="col-sm-10">
                                         <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Prenom">
                                     </div>

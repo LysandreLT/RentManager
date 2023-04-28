@@ -39,17 +39,17 @@
                                 <c:forEach items="${vehicles}" var="vehicle">
                                     <td>${vehicle.id}.</td>
                                     <td>${vehicle.constructeur}</td>
-                                    <td>${vehicle.modele}</td>
-                                    <td>${vehicle.seats}</td>
+                                    <td>${vehicle.getModele()}</td>
+                                    <td>${vehicle.nb_places}</td>
                                     <!--<td>John Doe</td>-->
                                     <td>
-                                        <a class="btn btn-primary disabled" href="car-detail.html">
+                                        <a class="btn btn-primary" href="${pageContext.request.contextPath}/cars/details?id=${vehicle.id}">
                                             <i class="fa fa-play"></i>
                                         </a>
-                                        <a class="btn btn-success disabled" href="#">
+                                        <a class="btn btn-success" href="${pageContext.request.contextPath}/cars/modify?id=${vehicle.id}">
                                             <i class="fa fa-edit"></i>
                                         </a>
-                                        <a class="btn btn-danger disabled" href="#">
+                                        <a class="btn btn-danger" href="${pageContext.request.contextPath}/cars?delete=${vehicle.id}">
                                             <i class="fa fa-trash"></i>
                                         </a>
                                     </td>

@@ -1,15 +1,30 @@
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/exception/DaoException.java
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/utils/IOUtils.java
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/service/ClientService.java
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/model/Client.java
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/dao/ClientDao.java
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/servlet/HomeServlet.java
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/model/Reservation.java
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/service/VehicleService.java
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/dao/ReservationDao.java
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/model/Vehicle.java
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/main/Main.java
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/persistence/ConnectionManager.java
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/exception/ServiceException.java
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/dao/VehicleDao.java
-/home/excilys/Documents/eclipse-workspace-JEE/rentmanager/src/main/java/epf/persistence/FillDatabase.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\servlet\UsersServlet.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\dao\DaoException.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\servlet\UserDetailsServlet.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\persistence\ConnectionManager.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\model\Client.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\utils\IOUtils.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\persistence\FillDatabase.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\service\ClientService.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\servlet\UsersCreateServlet.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\dao\ReservationDao.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\configuration\CommandLine.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\servlet\HomeServlet.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\service\VehicleService.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\service\ServiceException.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\configuration\WebConfiguration.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\servlet\VehicleModifyServlet.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\dao\VehicleDao.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\model\Reservation.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\servlet\RentsServlet.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\servlet\VehiclesServlet.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\model\Vehicle.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\servlet\RentsModifyServlet.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\service\ReservationService.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\servlet\VehicleCreateServlet.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\servlet\VehicleDetailsServlet.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\configuration\AppConfiguration.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\dao\ClientDao.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\servlet\RentsCreateServlet.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\servlet\UsersModifyServlet.java
+C:\Users\lolfi\Documents\EPF 4A\Langage Java\rentmanager\src\main\java\com\epf\rentmanager\ui\cli\Interface.java

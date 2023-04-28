@@ -1,6 +1,7 @@
 package com.epf.rentmanager.model;
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class Client {
     private int id;
@@ -18,6 +19,31 @@ public class Client {
         this.prenom = client.prenom;
     }
 
+    public Client(int id, String nom, String prenom, String email, LocalDate naissance) {
+        this.id = id;
+        this.nom = nom;
+        this.prenom = prenom;
+        this.email = email;
+        this.naissance = naissance;
+    }
+
+    public Client(String nom, String prenom) {
+        this.nom = nom;
+        this.prenom = prenom;
+    }
+
+    public Client(String nom, String prenom, String email) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.email = email;
+    }
+
+    public Client(String nom, String prenom, String email, LocalDate naissance) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.email = email;
+        this.naissance = naissance;
+    }
 
     public int getId() {
         return id;
@@ -59,6 +85,7 @@ public class Client {
         this.naissance = naissance;
     }
 
+    public String getNomPrenom(){return nom + " " + prenom;}
     @Override
     public String toString() {
         return "Client{" +
@@ -68,5 +95,27 @@ public class Client {
                 ", email='" + email + '\'' +
                 ", naissance=" + naissance +
                 '}';
+    }
+
+    @Override
+    public boolean equals(final Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        Client other = (Client) obj;
+        if (id != other.id)
+            return false;
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        return id;
     }
 }

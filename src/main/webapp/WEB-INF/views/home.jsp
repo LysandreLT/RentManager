@@ -8,10 +8,7 @@
 
  <!-- Left side column. contains the logo and sidebar -->
     <%@ include file="/WEB-INF/views/common/header.jsp" %>
-
-   <!-- Left side column. contains the logo and sidebar -->
     <%@ include file="/WEB-INF/views/common/sidebar.jsp" %>
-
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -32,7 +29,7 @@
 
             <div class="info-box-content">
               <span class="info-box-text">Utilisateurs</span>
-              <span class="info-box-number">3</span>
+              <span class="info-box-number">${nbDeClients}</span>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -45,7 +42,7 @@
 
             <div class="info-box-content">
               <span class="info-box-text">Voitures</span>
-              <span class="info-box-number">2</span>
+              <span class="info-box-number">${nbDeVehicules}</span>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -62,7 +59,7 @@
 
             <div class="info-box-content">
               <span class="info-box-text">Reservations</span>
-              <span class="info-box-number">2</span>
+              <span class="info-box-number">${nbDeReservations}</span>
             </div>
             <!-- /.info-box-content -->
           </div>
